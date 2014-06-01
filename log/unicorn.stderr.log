@@ -1,0 +1,10 @@
+I, [2014-06-01T15:41:51.332126 #6097]  INFO -- : listening on addr=/opt/prsvlft_twilio/tmp/sockets/unicorn.sock fd=10
+I, [2014-06-01T15:41:51.332381 #6097]  INFO -- : worker=0 spawning...
+I, [2014-06-01T15:41:51.333189 #6097]  INFO -- : worker=1 spawning...
+I, [2014-06-01T15:41:51.333715 #6100]  INFO -- : worker=0 spawned pid=6100
+I, [2014-06-01T15:41:51.333899 #6100]  INFO -- : Refreshing Gem list
+I, [2014-06-01T15:41:51.333926 #6097]  INFO -- : master process ready
+I, [2014-06-01T15:41:51.334421 #6103]  INFO -- : worker=1 spawned pid=6103
+I, [2014-06-01T15:41:51.334589 #6103]  INFO -- : Refreshing Gem list
+I, [2014-06-01T15:41:51.446056 #6103]  INFO -- : worker=1 ready
+I, [2014-06-01T15:41:51.455804 #6100]  INFO -- : worker=0 ready

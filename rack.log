@@ -1,0 +1,32 @@
+No command 'rack' found, did you mean:
+ Command 'raco' from package 'racket' (universe)
+ Command 'pack' from package 'liballegro4-dev' (universe)
+ Command 'racc' from package 'racc' (universe)
+ Command 'racy' from package 'tau-racy' (universe)
+ Command 'jack' from package 'jack' (universe)
+ Command 'hack' from package 'bsdgames' (universe)
+ Command 'tack' from package 'tack' (universe)
+rack: command not found
+/home/ccomeaux/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- twilio-ruby (LoadError)
+	from /home/ccomeaux/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /opt/prsvlft_twilio/web.rb:2:in `<top (required)>'
+	from /home/ccomeaux/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/ccomeaux/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /opt/prsvlft_twilio/config.ru:1:in `block in <main>'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+	from /opt/prsvlft_twilio/config.ru:in `new'
+	from /opt/prsvlft_twilio/config.ru:in `<main>'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:40:in `parse_file'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/server.rb:314:in `wrapped_app'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/server.rb:250:in `start'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/server.rb:141:in `start'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/bin/rackup:4:in `<top (required)>'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/bin/rackup:23:in `load'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/bin/rackup:23:in `<main>'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ccomeaux/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
